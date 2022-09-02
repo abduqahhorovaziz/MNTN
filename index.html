@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>MNTN</title>
+
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+
     <link rel="stylesheet" href="./fonts/Gilroy/stylesheet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500,600;700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap"
         rel="stylesheet">
 </head>
 
@@ -31,11 +33,24 @@
                         </ul>
                     </div>
                     <a href="#" class="account">Account</a>
+                    <button class="nav-button">
+                        <span class="nav-button-icon"></span>
+                    </button>
+                    <div class="mobile-nav">
+                        <div class="nav">
+                            <ul>
+                                <li><a href="#">Equipment</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                        </div>
+                        <a href="#" class="account">Account</a>
+                    </div>
                 </div>
             </div>
         </nav>
 
-        <a href="#" class="hero">
+        <a href="#main" class="hero">
             <div class="hero-category">A Hiking guide</div>
             <h1 class="hero-title">Be prepared for the Mountains and beyond!</h1>
             <p class="hero-scroll">scroll down</p>
@@ -43,7 +58,7 @@
 
     </header>
 
-    <main class="main">
+    <main class="main" id="main">
         <div class="container">
 
             <article class="article">
@@ -104,7 +119,7 @@
     <footer class="footer">
         <div class="container">
 
-            <div class="row space-between">
+            <div class="footer-row">
 
                 <div class="footer-copyright">
                     <div class="footer-copyright-logo">
@@ -145,6 +160,8 @@
 
     </footer>
 
+
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
